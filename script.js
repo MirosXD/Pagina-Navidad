@@ -19,3 +19,9 @@ function actualizarContador() {
 
 setInterval(actualizarContador, 1000);
 actualizarContador();
+function reproducirMusica() {
+    const musica = document.getElementById("musica");
+    musica.volume = 0.5; // volumen medio
+    musica.play();
+}
+
